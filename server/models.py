@@ -14,5 +14,7 @@ class Earthquake(db.Model, SerializerMixin):
     location = db.Column(db.String)
     year = db.Column(db.Integer)
 
-    def __repr__(self):
-        return f"<Earthquake {self.id}, {self.magnitude}, {self.location}, {self.year}>"
+    # def __repr__(self):
+    #     return f"<Earthquake {self.id}, {self.magnitude}, {self.location}, {self.year}>"
+
+eq = Earthquake(id=7, magnitude=8.0, location="Argentina", year=1997)
