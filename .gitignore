@@ -49,7 +49,7 @@ jspm_packages
 /.bundle
 
 # Virtual env metadata
-.venv
+# .venv
 
 # pytest cache
 .pytest_cache

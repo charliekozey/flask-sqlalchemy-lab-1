@@ -1,16 +1,20 @@
 # Flask-SQLAlchemy Lab 1
 
-## Key Concepts
+## Key Concepts and Commands
 
+- server
 - database schema
+- RESTful routing
+- SQLAlchemy models
 - migration (`flask db migrate`)
 - upgrade (`flask db upgrade head`)
-- `flask run`
-- `.query()`
-- `.filter()`
-- `.filter_by()`
-- `.first()`
-- `.all()`
+- flask shell commands
+  - `.query()`
+  - `.filter()`
+  - `.filter_by()`
+  - `.first()`
+  - `.all()`
+- serialization (`SerializerMixin`)
   
 ## Helpful tools
 
@@ -55,3 +59,5 @@ $ ipython -i filename.py
         5|8.4|Chile|1922
         ```
 2. What are `.filter()` and `.filter_by()`? What are their similarities and differences?
+
+3. How can you set up and populate your database tables with Flask?

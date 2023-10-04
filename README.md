@@ -3,8 +3,8 @@
 ## Learning Goals
 
 - Use Flask-SQLAlchemy to define a data model
-- Use SQLAlchemy-Serializer to serialize an object
 - Implement a Flask application that queries the database
+- Use SQLAlchemy-Serializer to serialize an object
 - Implement a Flask application that returns a JSON response
 
 ---
